@@ -1,0 +1,63 @@
+:root {
+    font-size: 1em;
+}
+
+body.cb {
+    width: 35em;
+    margin: 0 auto;
+    font-family: 'Courier New', Courier, mono, sans-serif;
+    max-width: 90vw;
+    color: #28282c;
+    background-color: #f7f7f7;
+}
+
+div.header {
+    text-align: center;
+    background-image: url('./nostr-header.jpg');
+    height: 140px;
+    border-bottom: 3px solid #3B434A;
+    position: relative;
+}
+
+div.h1-div {
+    display: inline-block;
+    vertical-align: middle;  
+    color: bisque;
+    font-weight: bolder;
+}
+
+* {
+    font-variant-ligatures: none;
+}
+
+h2 {
+    font-size: 1.35rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+a {
+    color: #709dff;
+}
+
+code {
+    font-size: 1rem;
+    user-select: text;
+    background-color: rgb(74, 74, 74);
+    border-radius: 8px;
+    padding: 0.15rem;
+}
+
+
+.overflow-scroll {
+    width: 95vw;
+    overflow-x: auto;
+    position: relative;
+    display: grid;
+    left: calc((min(35em, 90vw) - 95vw) / 2);
+    grid-template-rows: auto;
+    grid-template-columns: auto max-content auto;
+}
+
